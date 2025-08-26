@@ -27,8 +27,11 @@ Think of it as a **“factory of factories”** 🏭.
 You should use Abstract Factory when:
 
 ✅ You need **cross-platform families of objects** (e.g., Material vs Cupertino widgets).
+
 ✅ You want to enforce **consistency** between products (e.g., Android button always goes with Android checkbox).
+
 ✅ You want to **switch implementations easily** (Firebase vs SQLite, Stripe vs PayPal, REST vs GraphQL).
+
 ✅ You want **clean architecture** with dependency inversion — client code depends only on **abstract contracts**.
 
 ---
@@ -214,8 +217,11 @@ This allows you to swap the **entire data layer** (e.g., Firebase vs SQLite) wit
 ### 8. **Advantages**
 
 ✅ Provides **consistency** across product families.
+
 ✅ Enables **easy swapping** of product families.
+
 ✅ Supports **dependency inversion** (client depends on interfaces, not concrete classes).
+
 ✅ Great for **unit testing** (mock factories can be injected).
 
 ---
@@ -223,7 +229,9 @@ This allows you to swap the **entire data layer** (e.g., Firebase vs SQLite) wit
 ### 9. **Disadvantages**
 
 ⚠️ Adds **extra complexity** (more classes/interfaces).
+
 ⚠️ If you only need **one product type**, a simple **Factory Method** is enough.
+
 ⚠️ Overkill for small apps — shines in **large, multi-platform projects**.
 
 ---

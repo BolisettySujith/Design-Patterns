@@ -26,8 +26,11 @@ Think of it as a **“customizable object creator”** ⚙️.
 ### 3. **When to Use Factory Method**
 
 ✅ You want to delegate object creation to subclasses.
+
 ✅ You want to **abstract away platform-specific or service-specific classes**.
+
 ✅ You need **testability and flexibility** without hard-coding object creation.
+
 ✅ You don’t need full **families of objects** — just **one product type** per factory.
 
 ---
@@ -180,8 +183,11 @@ class GraphQLApiFactory implements ApiClientFactory {
 ### 8. **Advantages**
 
 ✅ Encapsulates object creation.
+
 ✅ Promotes **loose coupling** (client depends on interfaces).
+
 ✅ Easier **unit testing** (mock factories).
+
 ✅ Open/closed principle — new product types require new subclasses, not changes to client code.
 
 ---
@@ -189,7 +195,9 @@ class GraphQLApiFactory implements ApiClientFactory {
 ### 9. **Disadvantages**
 
 ⚠️ Introduces more classes/subclasses (extra boilerplate).
+
 ⚠️ Can be **overkill** if a simple constructor or dependency injection works.
+
 ⚠️ Only covers **one product** at a time (Abstract Factory is better for product families).
 
 ---

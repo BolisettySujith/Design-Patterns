@@ -14,8 +14,11 @@ Design patterns are **battle-tested solutions** to common software design proble
 They help with:
 
 ✅ Writing **scalable** and **maintainable** code.
+
 ✅ Improving **testability** and **readability**.
+
 ✅ Applying **SOLID principles** in real-world projects.
+
 ✅ Preparing for **interviews** and **system design discussions**.
 
 ---
@@ -102,6 +105,9 @@ git commit -m "Added Factory Method pattern with example"
 By the end of this journey, this repo will be a **comprehensive library** of **design patterns in Dart & Flutter**, useful for:
 
 * Personal reference ✅
+
 * Interview prep ✅
+
 * Team training ✅
+
 * Building scalable Flutter apps ✅
